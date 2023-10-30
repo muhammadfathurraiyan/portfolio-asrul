@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import Foto from "../assets/foto.jpg"
 
 const About = () => {
   return (
@@ -40,9 +41,8 @@ const About = () => {
         <div className="max-sm:-order-1 rounded-lg bg-[#0e050d] max-sm:w-full">
           <span className="bg-[#2D112B] rounded-lg border border-[#E4AEA7] flex justify-center items-center p-4 -translate-x-2 -translate-y-2">
             <img
-              className="rounded-full"
-              src="https://picsum.photos/300"
-              alt=""
+              className="rounded-full w-[300px]"
+              src={Foto}
             />
           </span>
         </div>
